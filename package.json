@@ -1,6 +1,6 @@
 {
-  "name": "ally-custom-service",
-  "description": "Starter kit to create an Ally driver for an OAuth2 service",
+  "name": "ally-apple-adapter",
+  "description": "A package to extend the AdonisJS Ally driver for Apple",
   "version": "0.0.0",
   "main": "index.js",
   "type": "module",
@@ -30,7 +30,7 @@
     "@adonisjs/ally": "^5.0.0-7",
     "@adonisjs/core": "^6.1.5-32"
   },
-  "author": "",
+  "author": "aiemxm",
   "license": "MIT",
   "keywords": [
     "social-auth",
@@ -40,5 +40,9 @@
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/package"
   },
-  "prettier": "@adonisjs/prettier-config"
+  "prettier": "@adonisjs/prettier-config",
+  "dependencies": {
+    "jwks-rsa": "^3.1.0",
+    "luxon": "^3.5.0"
+  }
 }
